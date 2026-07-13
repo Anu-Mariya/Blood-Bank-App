@@ -41,7 +41,7 @@ const AddDoner = () => {
                             <input type="text" className="form-control" />
                         </div>
                         <div className="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                            <label htmlFor="" className="form-label">email</label>
+                            <label htmlFor="" className="form-label">Email</label>
                             <input type="email" className="form-control" />
                         </div>
                         <div className="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
@@ -56,7 +56,9 @@ const AddDoner = () => {
                             <label htmlFor="" className="form-label">Last Donation Date</label>
                             <input type="date" className="form-control" />
                         </div>
-                        <div className="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6"></div>
+                        <div className="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                            <button className="btn btn-primary">Submit</button>
+                        </div>
                     </div>
                 </div>
             </div>

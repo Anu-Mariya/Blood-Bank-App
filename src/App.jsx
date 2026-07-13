@@ -4,13 +4,15 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import AddDoner from './components/AddDoner'
+import ViewAllDoner from './components/ViewAllDoner'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <AddDoner />  
+    <AddDoner /> 
+    <ViewAllDoner /> 
     </>
   )
 }

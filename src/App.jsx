@@ -5,14 +5,20 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import AddDoner from './components/AddDoner'
 import ViewAllDoner from './components/ViewAllDoner'
+import NavigationBar from './components/NavigationBar'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <AddDoner /> 
-    <ViewAllDoner /> 
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<AddDoner/>} />
+      <Route path="/view" element={<ViewAllDoner />} />
+    </Routes>
+    </BrowserRouter>
     </>
   )
 }
